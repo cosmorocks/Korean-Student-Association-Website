@@ -39,6 +39,7 @@
         font-size: 3.5em;
         white-space: nowrap;
     }
+    /** lg **/
     @media only screen and (max-width: 992px) {
         .title{
             transform: translate(-50%,-90%);
@@ -51,6 +52,7 @@
             margin-top: 40px;
         }
     }
+    /** md **/
     @media only screen and (max-width: 768px) {
         .title{
             transform: translate(-50%,-275%);
@@ -63,6 +65,7 @@
             margin-top: 40px;
         }
     }
+    /** small **/
     @media only screen and (max-width: 576px) {
         .hero-image{
             background-position: top;
@@ -71,7 +74,7 @@
             height: 91vw;
         }
         .title h1{
-            font-size: 6vw;
+            font-size: 5.25vw;
         }
         .title{
             top: 45vw;
