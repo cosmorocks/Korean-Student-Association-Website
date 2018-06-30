@@ -64,6 +64,7 @@
       box-shadow: 0px 5px rgba(0,0,0,0.2);
       border-radius: 15px;
       width: 150px;
+      background-color: white;
     }
     .nav-item{
       margin-left: 48px;
