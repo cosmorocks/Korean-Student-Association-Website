@@ -68,11 +68,46 @@
     /** md **/
     @media only screen and (max-width: 768px) {
         .descrip{
-            width: 250px;
+            width: 450px;
+        }
+        .image-holder{
+            width: 500px;
+            position: absolute;
+            top: 31%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .text{
+            float: none;
+            top: 63%;
+            left: 9%;
+        }
+        .home-block-one{
+            height: 500px;
         }
     }
     /** small **/
     @media only screen and (max-width: 576px) {
-
+        .image-holder{
+            width: 90%;
+            min-height: 100%;
+            top: 54%;
+        }
+        .descrip{
+            width: 90%;
+        }
+        .home-block-one{
+            height: 90vw;
+        }
+        .text{
+            top: 60%;
+        }
+        .text h1{
+            font-size: 5vw;
+        }
+        .descrip{
+            width: 90%;
+            font-size: 3vw;
+        }
     }
 </style>
