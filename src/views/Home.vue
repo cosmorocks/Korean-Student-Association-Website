@@ -9,6 +9,7 @@
     <HomeBlockOne></HomeBlockOne>
     <HomeBlockTwo></HomeBlockTwo>
     <SignUpForm></SignUpForm>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -19,24 +20,27 @@ import HeroImage from '@/components/HeroImage.vue'
 import HomeBlockOne from '@/components/HomeBlockOne.vue'
 import HomeBlockTwo from '@/components/HomeBlockTwo.vue'
 import SignUpForm from '@/components/SignUpForm.vue'
+import Footer from '@/components/Footer.vue'
 export default {
   name: 'home',
   components: {
     HeroImage,
     HomeBlockOne,
     HomeBlockTwo,
-    SignUpForm
+    SignUpForm,
+    Footer
   }
 }
 </script>
 
 <style scoped>
   .home{
-    height: 3000px;
+    height: fit-content;
   }
   .down-arrow{
     font-size: 40px;
     text-align: center;
     margin-top: 25px;
   }
+
 </style>

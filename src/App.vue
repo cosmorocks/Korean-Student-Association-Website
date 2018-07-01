@@ -31,6 +31,10 @@
 </template>
 
 <style>
+  body,html{
+    margin:0;
+    padding: 0;
+  }
   nav{
     height: 70px;
   }
@@ -44,6 +48,8 @@
     font-family: 'Lora', serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
   }
   .nav-link{
     color: black;
@@ -58,6 +64,12 @@
   }
   .hamburgNav:focus{
     outline: none;
+  }
+  .nav-link:focus{
+    outline: none;
+  }
+  .main-div{
+    padding: 0;
   }
   @media only screen and (max-width: 992px) {
     .boxxx{
