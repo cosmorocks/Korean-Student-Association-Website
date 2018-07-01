@@ -7,6 +7,7 @@
       </div>
     </div>
     <HomeBlockOne></HomeBlockOne>
+    <HomeBlockTwo></HomeBlockTwo>
   </div>
 </template>
 
@@ -15,18 +16,20 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 import HeroImage from '@/components/HeroImage.vue'
 import HomeBlockOne from '@/components/HomeBlockOne.vue'
+import HomeBlockTwo from '@/components/HomeBlockTwo.vue'
 export default {
   name: 'home',
   components: {
     HeroImage,
-    HomeBlockOne
+    HomeBlockOne,
+    HomeBlockTwo
   }
 }
 </script>
 
 <style scoped>
   .home{
-    height: 2000px;
+    height: 3000px;
   }
   .down-arrow{
     font-size: 40px;
