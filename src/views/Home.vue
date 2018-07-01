@@ -8,6 +8,7 @@
     </div>
     <HomeBlockOne></HomeBlockOne>
     <HomeBlockTwo></HomeBlockTwo>
+    <SignUpForm></SignUpForm>
   </div>
 </template>
 
@@ -17,12 +18,14 @@
 import HeroImage from '@/components/HeroImage.vue'
 import HomeBlockOne from '@/components/HomeBlockOne.vue'
 import HomeBlockTwo from '@/components/HomeBlockTwo.vue'
+import SignUpForm from '@/components/SignUpForm.vue'
 export default {
   name: 'home',
   components: {
     HeroImage,
     HomeBlockOne,
-    HomeBlockTwo
+    HomeBlockTwo,
+    SignUpForm
   }
 }
 </script>
