@@ -11,7 +11,7 @@
           <div class="collapse navbar-collapse" id="navContent">
             <div class="navbar-nav ml-auto boxxx">
               <div class="nav-item mr-5">
-                <router-link class="nav-link" tag="a" to="/about">About</router-link>
+                <router-link class="nav-link" tag="a" to="/">About</router-link>
               </div>
               <div class="nav-item mr-5">
                 <router-link class="nav-link" tag="a" to="/officers">Officers</router-link>
