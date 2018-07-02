@@ -9,12 +9,11 @@ import Expo from './views/Expo.vue'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history', //delete this if something breaks
   routes: [
     {
       path: '/',
       name: 'home',
-      component: Home
+      component: About
     },
     {
       path: '/about',
