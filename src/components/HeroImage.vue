@@ -10,7 +10,7 @@
 
 <style>
     .hero-image{
-        background-image: url('~../assets/hero-image.jpg');
+        background-image: url('./hero-image.jpg');
         background-position: -100px -100px;
         background-size: 120%;
         background-repeat: no-repeat;
