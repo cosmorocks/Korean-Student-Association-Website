@@ -30,6 +30,7 @@
   </div>
 </template>
 
+<!-- not scoped, some other components use these styles below -->
 <style>
   body,html{
     margin:0;
