@@ -39,7 +39,7 @@
         width: 100%;
         margin: 0 auto;
         padding: 17px;
-        background-color: blanchedalmond;
+        background-color: lightgray;
         height: 380px;
     }
     .name-form{

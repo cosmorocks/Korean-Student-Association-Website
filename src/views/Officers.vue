@@ -3,33 +3,33 @@
         <h1 class="meet-the-team-header">Meet the team</h1>
         <div class="people-holder container">
             <div class="row">
-                <div class="person col-3">
+                <div class="person col-lg-3">
                 </div>
-                <div class="person col-3">
+                <div class="person col-lg-3">
                 </div>
-                <div class="person col-3">
+                <div class="person col-lg-3">
                 </div>
-                <div class="person col-3">
-                </div>
-            </div>
-            <div class="row">
-                <div class="person col-3">
-                </div>
-                <div class="person col-3">
-                </div>
-                <div class="person col-3">
-                </div>
-                <div class="person col-3">
+                <div class="person col-lg-3">
                 </div>
             </div>
             <div class="row">
-                <div class="person col-3">
+                <div class="person col-lg-3">
                 </div>
-                <div class="person col-3">
+                <div class="person col-lg-3">
                 </div>
-                <div class="person col-3">
+                <div class="person col-lg-3">
                 </div>
-                <div class="person col-3">
+                <div class="person col-lg-3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="person col-lg-3">
+                </div>
+                <div class="person col-lg-3">
+                </div>
+                <div class="person col-lg-3">
+                </div>
+                <div class="person col-lg-3">
                 </div>
             </div>
         </div>

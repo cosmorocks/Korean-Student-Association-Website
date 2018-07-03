@@ -57,8 +57,10 @@
     /* padding-right: 70px; */
     text-align: center;
   }
-  #nav a.router-link-exact-active {
-    /* color: #42b983; */
+  nav a.router-link-exact-active {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
   }
   nav a:hover{
     text-decoration: none;
@@ -80,8 +82,10 @@
       width: 150px;
       background-color: white;
     }
-    .nav-item{
-      margin-left: 48px;
+    /** centering + left aligning links in the hamburger menu drop down **/
+    .nav-item a{ 
+      text-align: left;
+      margin-left: 45%;
     }
   }
 </style>
