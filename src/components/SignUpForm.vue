@@ -2,12 +2,12 @@
     <div class="container sign-up-form form-bg">
         <h1 class="header">What're you waiting for?</h1>
         <p class="small-text">Fill out the form below to recieve our newsletter and be notified when new events come up!</p>
-        <form class="submit-form form-bg" method="post" name="contact-form" action="/#/thanks" netlify>
-            <span class="form-label">First name</span>
+        <form class="submit-form form-bg" method="post" name="contact-form" action="" netlify>
+            <label class="form-label">First name</label>
             <input class="name-form first-name" name="first-name" type="text" placeholder="Enter first name">
-            <span class="form-label-last-name">Last name </span>
+            <label class="form-label-last-name">Last name </label>
             <input class="name-form first-name" name="last-name" type="text" placeholder="Enter last name">
-            <span class="form-label-email">Email</span>
+            <label class="form-label-email">Email</label>
             <input class="name-form" type="email" name="email" placeholder="Enter email">
             <button class="submit-button form-bg" type="submit">SUBMIT</button>
         </form>
