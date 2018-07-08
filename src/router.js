@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Officers from './views/Officers.vue'
 import Events from './views/Events.vue'
 import Expo from './views/Expo.vue'
+import Thanks from './views/Thanks.vue'
 
 Vue.use(Router)
 
@@ -34,5 +35,10 @@ export default new Router({
       name: 'expo',
       component: Expo
     },
+    {
+      path:'/thanks',
+      name: 'thanks',
+      component: Thanks
+    }
   ]
 })
