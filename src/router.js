@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import About from './views/About.vue'
 import Officers from './views/Officers.vue'
 import Events from './views/Events.vue'
 import Expo from './views/Expo.vue'
@@ -18,7 +17,7 @@ export default new Router({
     {
       path: '/about',
       name: 'about',
-      component: About
+      component: Home
     },
     {
       path:'/officers',
