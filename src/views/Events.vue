@@ -26,6 +26,7 @@ export default {
 
 <style lang="scss" scoped>
     .events{
+        height: fit-content;
         .container{
             text-align: center;
             .header{
