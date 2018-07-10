@@ -10,7 +10,8 @@
         .header{
             text-align: center;
             font-size: 45px;
-            margin-top: 40px;
+            margin: 40px 0 0 0;
+            padding: 0;
         }
     }
 </style>

@@ -11,8 +11,18 @@
             </div>
 
         </div>
+        <Footer></Footer>
     </div>
 </template>
+
+<script>
+import Footer from '@/components/Footer.vue'
+export default {
+    components:{
+        Footer
+    }
+}
+</script>
 
 <style lang="scss" scoped>
     .events{
@@ -21,7 +31,8 @@
             .header{
                 text-align: center;
                 font-size: 45px;
-                margin-top: 40px;
+                margin: 40px 0 0 0;
+                padding: 0;
             }
             .fb-page-holder{
                 display: inline-block;
@@ -37,6 +48,17 @@
                 height: fit-content;
                 vertical-align: top;
                 margin-left: 20px;
+            }
+        }
+    }
+    /** small **/
+    @media only screen and (max-width: 576px) {
+        //centers events when mobile
+        .events{
+            .container{
+                .more-info{
+                    margin-left: 0;
+                }
             }
         }
     }
