@@ -132,6 +132,7 @@ export default {
         text-align: center;
         font-size: 45px;
         margin-top: 40px;
+        font-weight: 500;
     }
     .people-holder{
         display: grid;

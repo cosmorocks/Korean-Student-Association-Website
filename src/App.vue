@@ -20,7 +20,7 @@
                 <router-link class="nav-link" tag="a" to="/events">Events</router-link>
               </div>
               <div class="nav-item mr-5">
-                <router-link class="nav-link" tag="a" to="/expo">Expo</router-link>
+                <router-link class="nav-link" tag="a" to="/expo">K-Expo</router-link>
               </div>
             </div>
           </div>
@@ -73,6 +73,13 @@
   }
   .main-div{
     padding: 0;
+  }
+  p{
+
+
+    font-family: 'Nunito Sans', sans-serif;
+
+
   }
   @media only screen and (max-width: 992px) {
     .boxxx{
