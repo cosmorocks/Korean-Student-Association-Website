@@ -17,14 +17,16 @@
                     <iframe src="https://www.youtube.com/embed/7vz9ELxjxuk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
+            <a target="_blank" href="https://www.youtube.com/channel/UCCrULtpfBAm2Mdq6qPHyGFQ">
             <div class="card-bg youtube-holder">
                 <div class="more-performances">
                     <i class="fab fa-youtube"></i>
                     <p>Click to watch our past expo performances!</p>
                 </div>
             </div>
+            </a>
             <div class="card-bg photo-slideshow">
-                <carousel>
+                <carousel :per-page="1" loop="true">
                     <slide>
                         <img src="../assets/emma-ardean.jpg"/>
                     </slide>
@@ -137,6 +139,33 @@ export default {
         }
         .photo-slideshow{
             margin: 45px 0 0 0;
+            img{
+                width: 100%;
+            }
+        }
+    }
+        /** lg **/
+    @media only screen and (max-width: 992px) {
+        .expo{
+            .youtube-holder{
+                p{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+        /** md **/
+    @media only screen and (max-width: 768px) {
+        .expo{
+            .bong-soon-holder{
+                height: 350px;
+            }
+            .youtube-holder{
+                p{
+                    margin-left: 0;
+                    font-size: 24px;
+                }
+            }
         }
     }
 </style>
