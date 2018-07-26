@@ -1,53 +1,38 @@
 <template>
-    <div>
-        <div class="container">
+    <div class="events">
+        <div class="container my-container">
             <h1 class="header">Events</h1>
-            <div class="card-bg first-gen-meeting">
-                <h3>First General Body Meeting</h3>
-                <div class="card-bg first-gen-meeting">
-                    <h5>Monday, September 3rd 6-7 PM</h5>
-                    <p>PHS 204 (Physics Building)</p>
-                </div>
-            </div>
-            <div class="card-bg first-gen-meeting">
-                <h3>More coming soon!</h3>
-                <div class="card-bg first-gen-meeting">
-                    <h5>Check out our facebook page!</h5>
-                    <p>Click to stay up to date</p>
-                </div>
-            </div>
+            <Event class="event-item" image="../assets/first-gen-meeting.jpg" title="First General Meeting!" description="KSA's first general body meeting! Come by to learn more about KSA, make new friends, and meet the amazing officer board! See you there!" month="Sept" day="3rd" time="7pm" location="Physics Building"></Event>
+            <Event class="event-item" title="First General Meeting!" description="KSA's first general body meeting! Come by to learn more about KSA, make new friends, and meet the amazing officer board! See you there!" month="Sept" day="3rd" time="7pm" location="Physics Building"></Event>
         </div>
-        <Footer></Footer>
+        <Footer class="footer"></Footer>
     </div>
 </template>
 
 <script>
 import Footer from '@/components/Footer.vue'
+import Event from '@/components/Event.vue'
 export default {
     components:{
-        Footer
+        Footer,
+        Event
     }
 }
 </script>
 
 <style lang="scss" scoped>
-    .container{
-        .header{
-            text-align: center;
-            font-size: 45px;
-            margin: 40px 0 0 0;
-            padding: 0;
-            font-weight: 500;
-        }
-        .first-gen-meeting{
-            text-align: center;
-            width: fit-content;
-            height: fit-content;
-            margin: 30px auto;
-            h3{
-                padding: 10px 10px 0px 10px;
+    .events{
+        .my-container{
+            .header{
+                text-align: center;
+                font-size: 45px;
+                margin: 0.85em 0 1.5em 0;
+                padding: 0;
+                font-weight: 500;
+            }
+            .event-item{
+                margin-bottom: 1em;
             }
         }
     }
-    
 </style>
