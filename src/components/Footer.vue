@@ -10,10 +10,10 @@
             <div class="footer-line">
             </div>
             <div class="facebook-icon">
-                <a href="" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.facebook.com/groups/2200074782/" target="_blank"><i class="fab fa-facebook facebook-icon-color"></i></a>
             </div>
             <div class="author-statement">
-                <p>Made with <i class="fas fa-heart heart-icon"></i> by <a class="matthew-han-link" href="" target="_blank">Matthew Han </a></p>
+                <p>Made with <i class="fas fa-heart heart-icon"></i> by <a class="matthew-han-link" href="http://www.matthewhan.me/" target="_blank">Matthew Han </a></p>
             </div>
         </footer>
     </div>
@@ -46,12 +46,14 @@
         color: white;
     }
     .facebook-icon{
-        color: white;
         position: absolute;
         bottom: 20px;
         font-size: 40px;
         left: 95.7%;
         top: 73%;
+    }
+    .facebook-icon-color{
+            color: white;
     }
     .uva-text{
         color: white;
