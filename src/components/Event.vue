@@ -12,7 +12,7 @@
                     </div>
                 </div>
                 <div class="image-holder">
-                    <img v-bind:src="image"/>
+                    <img v-bind:src="getImgUrl(image)"/>
                 </div>
                 <div class="description-holder">
                     <h1>{{title}}</h1>
@@ -40,11 +40,6 @@ export default {
             required: false,
             default: 'This is the default description.'
         },
-        picture: {
-            type: String,
-            required: false,
-            default: '' // TO DO
-        },
         time: {
             type: String,
             required: false
@@ -60,8 +55,13 @@ export default {
         },
         image: {
             type: String,
-            default: '../assets/first-gen-meeting.jpg',
+            default: 'first-gen-meeting.jpg',
             required: false
+        }
+    },
+    methods: {
+        getImgUrl(image) { // needed to fix weird pathing issue
+            return require('../assets/'+image)
         }
     }
 }
