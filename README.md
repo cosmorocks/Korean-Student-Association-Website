@@ -4,7 +4,7 @@
 
 ### Visit the site!
 ```
-URL WILL BE POSTED HERE ONCE COMPLETED
+https://www.ksaatuva.org/#/
 ```
 
 ### Made using: 
