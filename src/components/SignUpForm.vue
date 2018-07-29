@@ -2,7 +2,7 @@
     <div class="container sign-up-form form-bg">
         <h1 class="header">What're you waiting for?</h1>
         <p class="small-text">Fill out the form below to recieve our newsletter and be notified when new events come up!</p>
-        <form class="submit-form form-bg" name="contact-form" @submit="handleSubmit()" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form class="submit-form form-bg" name="contact-form" data-netlify="true" data-netlify-honeypot="bot-field">
             <div hidden>
                 <label>
                 Don’t fill this out: <input name="bot-field" />
@@ -14,7 +14,7 @@
             <input class="name-form first-name" name="lastName" placeholder="Enter last name" v-model="formData.lastName" required>
             <label class="form-label-email">Email</label>
             <input class="name-form" type="email" name="email" placeholder="Enter email" v-model="formData.email" required>
-            <button class="submit-button form-bg" type="submit">SUBMIT</button>
+            <button @click.prevent="handleSubmit()" class="submit-button form-bg" type="submit">SUBMIT</button>
         </form>
     </div>
 </template>
