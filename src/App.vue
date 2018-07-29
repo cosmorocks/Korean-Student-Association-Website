@@ -26,7 +26,9 @@
           </div>
       </nav>
     </div>
-    <router-view/>
+    <transition name="router-animate">
+      <router-view/>
+    </transition>
   </div>
 </template>
 
@@ -75,11 +77,32 @@
     padding: 0;
   }
   p{
-
-
     font-family: 'Nunito Sans', sans-serif;
-
-
+  }
+  @keyframes going {
+    from{
+      opacity: 1;
+    }
+    to{
+      opacity: 0;
+    }
+  }  
+  @keyframes coming {
+    from{
+      transform: translateY(10em);
+      opacity: 0;
+    }
+    to{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  /** CSS ANIMATIONS **/
+  .router-animate-enter-active{
+    animation: coming 1.5s ease;
+  }
+  .router-animate-leave-active{
+    animation: going .5s;
   }
   @media only screen and (max-width: 992px) {
     .boxxx{
