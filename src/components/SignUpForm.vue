@@ -46,8 +46,10 @@
                     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                     body: this.encode({ 'form-name': 'contact-form', ...this.formData }),
                 })
-                    .then(() => alert('Success!'))
-                    .catch(error => alert(error));
+                    // .then(() => alert('Success!'))
+                    .then(() => this.$swal({text:"Thanks! We'll be in touch                                 shortly.",
+                                            type:'success'}))
+                    .catch(error => console.log(error));
             },
         }
     }
