@@ -2,7 +2,7 @@
     <div class="container sign-up-form form-bg">
         <h1 class="header">What're you waiting for?</h1>
         <p class="small-text">Fill out the form below to recieve our newsletter and be notified when new events come up!</p>
-        <form class="submit-form form-bg" method="POST" name="contact-form">
+        <form v-on:submit="handleSubmit()" class="submit-form form-bg" name="contact-form">
             <input type="hidden" name="contact-form" value="contact-form" />  
             <label class="form-label">First name</label>
             <input class="name-form first-name" name="first-name" type="text" placeholder="Enter first name">
@@ -18,7 +18,17 @@
 <script>
     export default {
         methods:{
+                handleSubmit: function(){
+                    fetch("/", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                        body: encode({ "form-name": "contact", ...this.state })
+                    })
+                        .then(() => alert("Success!"))
+                        .catch(error => alert(error));
 
+                    e.preventDefault();
+                }
         }
     }
 </script>
