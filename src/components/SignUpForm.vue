@@ -5,9 +5,9 @@
         <form v-on:submit="handleSubmit()" class="submit-form form-bg" name="contact-form">
             <input type="hidden" name="contact-form" value="contact-form" />  
             <label class="form-label">First name</label>
-            <input class="name-form first-name" name="first-name" type="text" placeholder="Enter first name" v-model="form.firstName">
+            <input class="name-form first-name" name="firstName" type="text" placeholder="Enter first name" v-model="form.firstName">
             <label class="form-label-last-name">Last name </label>
-            <input class="name-form first-name" name="last-name" type="text" placeholder="Enter last name" v-model="form.lastName">
+            <input class="name-form first-name" name="lastName" type="text" placeholder="Enter last name" v-model="form.lastName">
             <label class="form-label-email">Email</label>
             <input class="name-form" type="email" name="email" placeholder="Enter email" v-model="form.email">
             <button class="submit-button form-bg" type="submit">SUBMIT</button>
@@ -27,6 +27,8 @@
             }
         },
         methods:{
+            // got this code from https://gist.github.com/Gomah/a4bbc8c05bd0e603847b94ffb6a71ac1
+            // I don't understand how it works... BUT NETLIFY FORM FINALLY WORKS!!!
             encode(data) {
             return Object.keys(data)
                 .map(
