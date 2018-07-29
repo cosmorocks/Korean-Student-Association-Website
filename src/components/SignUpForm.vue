@@ -2,11 +2,16 @@
     <div class="container sign-up-form form-bg">
         <h1 class="header">What're you waiting for?</h1>
         <p class="small-text">Fill out the form below to recieve our newsletter and be notified when new events come up!</p>
-        <form class="submit-form form-bg" name="contact-form" @submit="handleSubmit()" data-netlify="true">
+        <form class="submit-form form-bg" name="contact-form" @submit="handleSubmit()" data-netlify="true" data-netlify-honeypot="bot-field">
+            <div hidden>
+                <label>
+                Don’t fill this out: <input name="bot-field" />
+                </label>
+            </div>
             <label class="form-label">First name</label>
-            <input class="name-form first-name" name="text" type="text" placeholder="Enter first name" v-model="formData.name" required>
+            <input class="name-form first-name" type="text" name="name" placeholder="Enter first name" v-model="formData.name" required>
             <label class="form-label-last-name">Last name </label>
-            <input class="name-form first-name" name="lastName" type="text" placeholder="Enter last name" v-model="formData.lastName" required>
+            <input class="name-form first-name" type="text" name="lastName" placeholder="Enter last name" v-model="formData.lastName" required>
             <label class="form-label-email">Email</label>
             <input class="name-form" type="email" name="email" placeholder="Enter email" v-model="formData.email" required>
             <button class="submit-button form-bg" type="submit">SUBMIT</button>
@@ -19,9 +24,9 @@
         data() {
             return{
                 formData:{
-                    text:'',
-                    email:'',
-                    lastName:''
+                    name:'',
+                    lastName:'',
+                    email:''
                 }
             }
         },
