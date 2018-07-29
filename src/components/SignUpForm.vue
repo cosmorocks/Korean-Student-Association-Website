@@ -2,8 +2,8 @@
     <div class="container sign-up-form form-bg">
         <h1 class="header">What're you waiting for?</h1>
         <p class="small-text">Fill out the form below to recieve our newsletter and be notified when new events come up!</p>
-        <form action="/" class="submit-form form-bg" method="POST" name="contact-form" data-netlify="true">
-            <input type="hidden" name="contact-form" value="contact" />  
+        <form class="submit-form form-bg" method="POST" name="contact-form">
+            <input type="hidden" name="contact-form" value="contact-form" />  
             <label class="form-label">First name</label>
             <input class="name-form first-name" name="first-name" type="text" placeholder="Enter first name">
             <label class="form-label-last-name">Last name </label>
