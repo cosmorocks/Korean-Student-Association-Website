@@ -8,7 +8,17 @@
     </div>
     <HomeBlockOne></HomeBlockOne>
     <HomeBlockTwo></HomeBlockTwo>
-    <SignUpForm></SignUpForm>
+    <!-- <SignUpForm></SignUpForm> -->
+            <form class="submit-form form-bg" method="POST" name="contact-form">
+            <input type="hidden" name="contact-form" value="contact-form" />  
+            <label class="form-label">First name</label>
+            <input class="name-form first-name" name="first-name" type="text" placeholder="Enter first name">
+            <label class="form-label-last-name">Last name </label>
+            <input class="name-form first-name" name="last-name" type="text" placeholder="Enter last name">
+            <label class="form-label-email">Email</label>
+            <input class="name-form" type="email" name="email" placeholder="Enter email">
+            <button class="submit-button form-bg" type="submit">SUBMIT</button>
+        </form>
     <Footer></Footer>
   </div>
 </template>
