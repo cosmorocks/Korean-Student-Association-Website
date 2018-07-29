@@ -9,9 +9,9 @@
                 </label>
             </div>
             <label class="form-label">First name</label>
-            <input class="name-form first-name" type="text" name="name" placeholder="Enter first name" v-model="formData.name" required>
+            <input class="name-form first-name" name="name" placeholder="Enter first name" v-model="formData.name" required>
             <label class="form-label-last-name">Last name </label>
-            <input class="name-form first-name" type="text" name="lastName" placeholder="Enter last name" v-model="formData.lastName" required>
+            <input class="name-form first-name" name="lastName" placeholder="Enter last name" v-model="formData.lastName" required>
             <label class="form-label-email">Email</label>
             <input class="name-form" type="email" name="email" placeholder="Enter email" v-model="formData.email" required>
             <button class="submit-button form-bg" type="submit">SUBMIT</button>
