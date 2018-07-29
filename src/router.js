@@ -6,6 +6,8 @@ import Events from './views/Events.vue'
 import Expo from './views/Expo.vue'
 import Thanks from './views/Thanks.vue'
 
+import SignUpForm from './components/SignUpForm.vue'
+
 Vue.use(Router)
 
 export default new Router({
@@ -39,6 +41,11 @@ export default new Router({
       path:'/thanks',
       name: 'thanks',
       component: Thanks
+    },
+    {
+      path:'/signup',
+      name: 'signup',
+      component: SignUpForm
     }
   ]
 })
