@@ -19,7 +19,7 @@
               <div class="nav-item mr-5">
                 <router-link class="nav-link" tag="a" to="/events">Events</router-link>
               </div>
-              <div class="nav-item mr-5">
+              <div class="nav-item mr-5 k-expo-link">
                 <router-link class="nav-link" tag="a" to="/expo">K-Expo</router-link>
               </div>
             </div>
@@ -94,5 +94,19 @@
       text-align: left;
       margin-left: 45%;
     }
+    .k-expo-link a{
+      margin-left: 44%;
+    }
+    nav{
+      margin-top: 1em;
+      margin-bottom: -2em;
+    }
+    /** intermediate step when mobile nav is opening, might use for css animations **/
+    /* .collapsing{
+      margin-top: -3em;
+    } */
+    
+  
+
   }
 </style>
