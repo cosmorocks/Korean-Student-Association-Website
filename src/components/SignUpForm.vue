@@ -5,11 +5,11 @@
         <form v-on:submit="handleSubmit()" class="submit-form form-bg" name="contact-form">
             <input type="hidden" name="contact-form" value="contact-form" />  
             <label class="form-label">First name</label>
-            <input class="name-form first-name" name="first-name" type="text" placeholder="Enter first name">
+            <input class="name-form first-name" name="first-name" type="text" placeholder="Enter first name" v-model="form.firstName">
             <label class="form-label-last-name">Last name </label>
-            <input class="name-form first-name" name="last-name" type="text" placeholder="Enter last name">
+            <input class="name-form first-name" name="last-name" type="text" placeholder="Enter last name" v-model="form.lastName">
             <label class="form-label-email">Email</label>
-            <input class="name-form" type="email" name="email" placeholder="Enter email">
+            <input class="name-form" type="email" name="email" placeholder="Enter email" v-model="form.email">
             <button class="submit-button form-bg" type="submit">SUBMIT</button>
         </form>
     </div>
@@ -17,18 +17,32 @@
 
 <script>
     export default {
-        methods:{
-                handleSubmit: function(){
-                    fetch("/", {
-                        method: "POST",
-                        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                        body: encode({ "form-name": "contact", ...this.state })
-                    })
-                        .then(() => alert("Success!"))
-                        .catch(error => alert(error));
-
-                    e.preventDefault();
+        data() {
+            return{
+                form:{
+                    firstName:'',
+                    lastName:'',
+                    email:''
                 }
+            }
+        },
+        methods:{
+            encode(data) {
+            return Object.keys(data)
+                .map(
+                key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+                )
+                .join('&');
+            },
+            handleSubmit() {
+            fetch('/', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: this.encode({ 'form-name': 'contact-form', ...this.form }),
+            })
+                .then(() => alert('Success!'))
+                .catch(error => alert(error));
+            },
         }
     }
 </script>
