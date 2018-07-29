@@ -4,7 +4,7 @@
         <p class="small-text">Fill out the form below to recieve our newsletter and be notified when new events come up!</p>
         <form class="submit-form form-bg" name="contact-form" @submit="handleSubmit()" data-netlify="true">
             <label class="form-label">First name</label>
-            <input class="name-form first-name" name="firstName" type="text" placeholder="Enter first name" v-model="formData.firstName" required>
+            <input class="name-form first-name" name="firstName" type="text" placeholder="Enter first name" v-model="formData.name" required>
             <label class="form-label-last-name">Last name </label>
             <input class="name-form first-name" name="lastName" type="text" placeholder="Enter last name" v-model="formData.lastName" required>
             <label class="form-label-email">Email</label>
@@ -19,7 +19,7 @@
         data() {
             return{
                 formData:{
-                    firstName:'',
+                    name:'',
                     lastName:'',
                     email:''
                 }
