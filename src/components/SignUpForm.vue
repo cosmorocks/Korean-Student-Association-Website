@@ -2,7 +2,7 @@
     <div class="container sign-up-form form-bg">
         <h1 class="header">What're you waiting for?</h1>
         <p class="small-text">Fill out the form below to recieve our newsletter and be notified when new events come up!</p>
-        <form v-on:submit="handleSubmit()" class="submit-form form-bg" name="contact-form">
+        <form class="submit-form form-bg" name="contact-form">
             <input type="hidden" name="contact-form" value="contact-form" />  
             <label class="form-label">First name</label>
             <input class="name-form first-name" name="firstName" type="text" placeholder="Enter first name" v-model="form.firstName">
@@ -10,7 +10,7 @@
             <input class="name-form first-name" name="lastName" type="text" placeholder="Enter last name" v-model="form.lastName">
             <label class="form-label-email">Email</label>
             <input class="name-form" type="email" name="email" placeholder="Enter email" v-model="form.email">
-            <button class="submit-button form-bg" type="submit">SUBMIT</button>
+            <button class="submit-button form-bg" type="submit" @click.prevent="handleSubmit()">SUBMIT</button>
         </form>
     </div>
 </template>
