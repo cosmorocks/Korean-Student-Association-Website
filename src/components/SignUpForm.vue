@@ -2,15 +2,14 @@
     <div class="container sign-up-form form-bg">
         <h1 class="header">What're you waiting for?</h1>
         <p class="small-text">Fill out the form below to recieve our newsletter and be notified when new events come up!</p>
-        <form class="submit-form form-bg" name="contact-form">
-            <input type="hidden" name="contact-form" value="contact-form" />  
+        <form class="submit-form form-bg" name="contact-form" @submit="handleSubmit()" data-netlify="true">
             <label class="form-label">First name</label>
-            <input class="name-form first-name" name="firstName" type="text" placeholder="Enter first name" v-model="form.firstName">
+            <input class="name-form first-name" name="firstName" type="text" placeholder="Enter first name" v-model="formData.firstName" required>
             <label class="form-label-last-name">Last name </label>
-            <input class="name-form first-name" name="lastName" type="text" placeholder="Enter last name" v-model="form.lastName">
+            <input class="name-form first-name" name="lastName" type="text" placeholder="Enter last name" v-model="formData.lastName" required>
             <label class="form-label-email">Email</label>
-            <input class="name-form" type="email" name="email" placeholder="Enter email" v-model="form.email">
-            <button class="submit-button form-bg" type="submit" @click.prevent="handleSubmit()">SUBMIT</button>
+            <input class="name-form" type="email" name="email" placeholder="Enter email" v-model="formData.email" required>
+            <button class="submit-button form-bg" type="submit">SUBMIT</button>
         </form>
     </div>
 </template>
@@ -19,7 +18,7 @@
     export default {
         data() {
             return{
-                form:{
+                formData:{
                     firstName:'',
                     lastName:'',
                     email:''
@@ -36,14 +35,15 @@
                 )
                 .join('&');
             },
-            handleSubmit() {
+            handleSubmit(e) {
             fetch('/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: this.encode({ 'form-name': 'contact-form', ...this.form }),
+                body: this.encode({ 'form-name': 'contact-form', ...this.formData }),
             })
                 .then(() => alert('Success!'))
                 .catch(error => alert(error));
+                e.preventDefault()
             },
         }
     }
