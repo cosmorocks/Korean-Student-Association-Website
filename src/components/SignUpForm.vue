@@ -15,6 +15,11 @@
 </template>
 
 <script>
+    function encode (data) {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+        .join('&')
+    }
     export default {
         data() {
             return{
@@ -28,18 +33,11 @@
         methods:{
             // got this code from https://gist.github.com/Gomah/a4bbc8c05bd0e603847b94ffb6a71ac1
             // I don't understand how it works... BUT NETLIFY FORM FINALLY WORKS!!!
-            encode(data) {
-            return Object.keys(data)
-                .map(
-                key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
-                )
-                .join('&');
-            },
             handleSubmit(e) {
             fetch('/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: this.encode({ 'form-name': 'contact-form', ...this.formData }),
+                body: encode({ 'form-name': 'contact-form', ...this.formData }),
             })
                 .then(() => alert('Success!'))
                 .catch(error => alert(error));
