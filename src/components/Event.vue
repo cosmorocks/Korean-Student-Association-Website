@@ -153,7 +153,13 @@ export default {
     }
         /** md **/
     @media only screen and (max-width: 768px) {
-
+        .event{
+            .holder{
+                .image-holder{
+                    width: 250px;
+                }
+            }
+        }
     }
 </style>
 
