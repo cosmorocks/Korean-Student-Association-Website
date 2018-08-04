@@ -2,24 +2,26 @@
     <div class="container sign-up-form form-bg">
         <h1 class="header">What're you waiting for?</h1>
         <p class="small-text">Fill out the form below to recieve our newsletter and be notified when new events come up!</p>
-        <form class="submit-form form-bg" name="contact-form" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form @submit.prevent="submitForm()" class="submit-form form-bg" name="contact-form" data-netlify="true" data-netlify-honeypot="bot-field">
             <div hidden>
                 <label>
                 Don’t fill this out: <input name="bot-field" />
                 </label>
             </div>
             <label class="form-label">First name</label>
-            <input class="name-form first-name" name="name" placeholder="Enter first name" v-model="formData.name" required>
+            <input class="name-form first-name" name="name" v-validate="'alpha|required'" placeholder="Enter first name" v-model="formData.name">
             <label class="form-label-last-name">Last name </label>
-            <input class="name-form first-name" name="lastName" placeholder="Enter last name" v-model="formData.lastName" required>
+            <input class="name-form first-name" name="lastName" v-validate="'alpha|required'" placeholder="Enter last name" v-model="formData.lastName">
             <label class="form-label-email">Email</label>
-            <input class="name-form" type="email" name="email" placeholder="Enter email" v-model="formData.email" required>
-            <button @click.prevent="handleSubmit()" class="submit-button form-bg" type="submit">SUBMIT</button>
+            <input class="name-form" v-validate="'required|email'" type="email" name="email" placeholder="Enter email" v-model="formData.email">
+            <button class="submit-button form-bg" type="submit">SUBMIT</button>
         </form>
     </div>
 </template>
 
 <script>
+    // import { required, email } from 'vuelidate/lib/validators'
+
     export default {
         data() {
             return{
@@ -51,6 +53,25 @@
                                             type:'success'}))
                     .catch(error => console.log(error));
             },
+            submitForm() {
+                this.$validator.validateAll().then(res=>{
+                    if(res){
+                        fetch('/', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                            body: this.encode({ 'form-name': 'contact-form', ...this.formData }),
+                        })
+                                            // .then(() => alert('Success!'))
+                        .then(() => this.$swal({text:"Thanks! We'll be in touch                                 shortly.",
+                                            type:'success'}))
+                        .catch(error => console.log(error));
+                    }
+                    else {
+                        console.log('rip')
+                        this.$swal({text:"Please fill out all forms and make sure a valid email is entered!",type:'error'})
+                    }
+                })
+            }
         }
     }
 </script>
