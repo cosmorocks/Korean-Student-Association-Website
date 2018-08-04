@@ -13,7 +13,7 @@
             <label class="form-label-last-name">Last name </label>
             <input class="name-form first-name" name="lastName" v-validate="'alpha|required'" placeholder="Enter last name" v-model="formData.lastName">
             <label class="form-label-email">Email</label>
-            <input class="name-form" v-validate="'required|email'" type="email" name="email" placeholder="Enter email" v-model="formData.email">
+            <input class="name-form" v-validate="'required'" type="email" name="email" placeholder="Enter email" v-model="formData.email">
             <button class="submit-button form-bg" type="submit">SUBMIT</button>
         </form>
     </div>
