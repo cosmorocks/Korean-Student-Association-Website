@@ -9,9 +9,9 @@
                 </label>
             </div>
             <label class="form-label">First name</label>
-            <input class="name-form first-name" name="name" v-validate="'alpha|required'" placeholder="Enter first name" v-model="formData.name">
+            <input class="name-form first-name" name="name" v-validate="'required'" placeholder="Enter first name" v-model="formData.name">
             <label class="form-label-last-name">Last name </label>
-            <input class="name-form first-name" name="lastName" v-validate="'alpha|required'" placeholder="Enter last name" v-model="formData.lastName">
+            <input class="name-form first-name" name="lastName" v-validate="'required'" placeholder="Enter last name" v-model="formData.lastName">
             <label class="form-label-email">Email</label>
             <input class="name-form" v-validate="'required'" type="email" name="email" placeholder="Enter email" v-model="formData.email">
             <button class="submit-button form-bg" type="submit">SUBMIT</button>
@@ -41,17 +41,6 @@
                 key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
                 )
                 .join('&');
-            },
-            handleSubmit() {
-                fetch('/', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                    body: this.encode({ 'form-name': 'contact-form', ...this.formData }),
-                })
-                    // .then(() => alert('Success!'))
-                    .then(() => this.$swal({text:"Thanks! We'll be in touch                                 shortly.",
-                                            type:'success'}))
-                    .catch(error => console.log(error));
             },
             submitForm() {
                 this.$validator.validateAll().then(res=>{
