@@ -1,9 +1,8 @@
 <template>
-    <div class="container card-bg">
-        <div class="board-image">
-        </div>
-    </div>
     <div class="everything">
+        <div class="container card-bg">
+            <div class="board-image"></div>
+        </div>
         <div class="officers my-container">
             <h1 class="meet-the-team-header">Meet our Board!</h1>
             <div class="people-holder">
