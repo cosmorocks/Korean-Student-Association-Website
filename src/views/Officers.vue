@@ -1,7 +1,7 @@
 <template>
     <div class="everything">
         <div class="officers my-container">
-            <h1 class="meet-the-team-header">Meet the team</h1>
+            <h1 class="meet-the-team-header">Meet our Board!</h1>
             <div class="people-holder">
                 <div class="person-holder">
                     <div class="image">
@@ -121,6 +121,78 @@
                     </div>
                     <h4>Paniti Mongkonpathumrat</h4>
                     <p>Historian</p>
+                </div>
+                <div class="person-holder">
+                    <div class="image">
+                        <img src="../assets/april.jpg">
+                    </div>
+                    <h4>Cindy Zhang</h4>
+                    <p>Social</p>
+                </div>
+                <div class="person-holder">
+                    <div class="image">
+                        <img src="../assets/april.jpg">
+                    </div>
+                    <h4>Liam Whitted</h4>
+                    <p>Social</p>
+                </div>
+            <h1 class="meet-the-team-header">First Year Reps</h1>
+            <div class="people-holder">
+                <div class="person-holder">
+                    <div class="image">
+                        <img src="../assets/soojin.jpg">
+                    </div>
+                    <h4>Soojin Jang</h4>
+                    <p>Culture</p>
+                </div>
+                <div class="person-holder">
+                    <div class="image">
+                        <img src="../assets/wan.jpg">
+                    </div>
+                    <h4>Wan Li</h4>
+                    <p>Culture</p>
+                </div>
+                <div class="person-holder">
+                    <div class="image">
+                        <img src="../assets/april.jpg">
+                    </div>
+                    <h4>Emmalynn Kim</h4>
+                    <p>Social</p>
+                </div>
+                <div class="person-holder">
+                    <div class="image">
+                        <img src="../assets/april.jpg">
+                    </div>
+                    <h4>Alan Zheng</h4>
+                    <p>Internal</p>
+                </div>
+                <div class="person-holder">
+                    <div class="image">
+                        <img src="../assets/april.jpg">
+                    </div>
+                    <h4>Donghoon Sin</h4>
+                    <p>Internal</p>
+                </div>
+                <div class="person-holder">
+                    <div class="image">
+                        <img src="../assets/yejung.jpg">
+                    </div>
+                    <h4>Yejung Jeong</h4>
+                    <p>Public Relations</p>
+                </div>
+                <div class="person-holder">
+                    <div class="image">
+                        <img src="../assets/april.jpg">
+                    </div>
+                    <h4>Mohamed Elgazar</h4>
+                    <p>Social</p>
+                </div>
+                <div class="person-holder">
+                    <div class="image">
+                        <img src="../assets/april.jpg">
+                    </div>
+                    <h4>Jaehoon Smith</h4>
+                    <p>Social</p>
                 </div>
             </div>
         </div>
