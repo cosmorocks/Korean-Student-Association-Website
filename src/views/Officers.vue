@@ -12,100 +12,114 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/matthew.jpg">
+                        <img src="../assets/val.jpg">
                     </div>
-                    <h4>Matthew Han</h4>
+                    <h4>Valerie Young</h4>
                     <p>Vice President</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
                         <img src="../assets/ardean.jpg">
                     </div>
-                    <h4>Ardean Kim</h4>
+                    <h4>Matthew Bacon</h4>
                     <p>Treasurer</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
                         <img src="../assets/leesun.jpg">
                     </div>
-                    <h4>Leesun Chea</h4>
+                    <h4>Jenna Lee</h4>
                     <p>Secretary</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
                         <img src="../assets/val.jpg">
                     </div>
-                    <h4>Valerie Young</h4>
+                    <h4>Kwangmin Yoo</h4>
                     <p>Culture</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
                         <img src="../assets/sherlyn.jpg">
                     </div>
-                    <h4>Sherlyn Chuang</h4>
+                    <h4>Alicia Wang</h4>
                     <p>Culture</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
                         <img src="../assets/sab.jpg">
                     </div>
-                    <h4>Sabrina Baldassarre</h4>
+                    <h4>Will Ngu</h4>
                     <p>Outreach</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
                         <img src="../assets/hannah.jpg">
                     </div>
-                    <h4>Hannah Bae</h4>
+                    <h4>Chris Lee</h4>
                     <p>Outreach</p>
+                </div>
+                <div class="person-holder">
+                    <div class="image">
+                        <img src="../assets/lan.jpg">
+                    </div>
+                    <h4>Lauren Eller</h4>
+                    <p>Fundraising</p>
+                </div>
+                <div class="person-holder">
+                    <div class="image">
+                        <img src="../assets/steve.jpg">
+                    </div>
+                    <h4>Steve Hong</h4>
+                    <p>Fundraising</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
                         <img src="../assets/philip.jpg">
                     </div>
-                    <h4>Philip Song</h4>
+                    <h4>Lilly Ko</h4>
                     <p>Internal</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
                         <img src="../assets/edmund.jpg">
                     </div>
-                    <h4>Edmund Pan</h4>
+                    <h4>Eunice Lee</h4>
                     <p>Internal</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
                         <img src="../assets/ariel.jpg">
                     </div>
-                    <h4>Ariel Ben-Salmon</h4>
+                    <h4>Leesun Chea</h4>
                     <p>Internal</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
                         <img src="../assets/jenny.jpg">
                     </div>
-                    <h4>Jenny Yao</h4>
+                    <h4>Jane Kim</h4>
                     <p>Public Relations</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
                         <img src="../assets/april.jpg">
                     </div>
-                    <h4>April Xie</h4>
+                    <h4>Nhi Nguyen</h4>
                     <p>Public Relations</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
                         <img src="../assets/lan.jpg">
                     </div>
-                    <h4>Lan Anh Do</h4>
+                    <h4>Jenny Yao</h4>
                     <p>Historian</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
                         <img src="../assets/rebecca.jpg">
                     </div>
-                    <h4>Rebecca Yang</h4>
+                    <h4>Paniti Mongkonpathumrat</h4>
                     <p>Historian</p>
                 </div>
             </div>
