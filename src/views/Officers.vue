@@ -61,17 +61,17 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/lauren.png">
+                        <img src="../assets/matthew.jpg">
                     </div>
-                    <h4>Lauren Eller</h4>
-                    <p>Fundraising</p>
+                    <h4>Cindy Zhang</h4>
+                    <p>Social</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/steve.jpg">
+                        <img src="../assets/liam.jpg">
                     </div>
-                    <h4>Steve Hong</h4>
-                    <p>Fundraising</p>
+                    <h4>Liam Whitted</h4>
+                    <p>Social</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
@@ -110,6 +110,20 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
+                        <img src="../assets/lauren.png">
+                    </div>
+                    <h4>Lauren Eller</h4>
+                    <p>Fundraising</p>
+                </div>
+                <div class="person-holder">
+                    <div class="image">
+                        <img src="../assets/steve.jpg">
+                    </div>
+                    <h4>Steve Hong</h4>
+                    <p>Fundraising</p>
+                </div>
+                <div class="person-holder">
+                    <div class="image">
                         <img src="../assets/jenny.jpg">
                     </div>
                     <h4>Jenny Yao</h4>
@@ -121,20 +135,6 @@
                     </div>
                     <h4>Paniti Mongkonpathumrat</h4>
                     <p>Historian</p>
-                </div>
-                <div class="person-holder">
-                    <div class="image">
-                        <img src="../assets/matthew.jpg">
-                    </div>
-                    <h4>Cindy Zhang</h4>
-                    <p>Social</p>
-                </div>
-                <div class="person-holder">
-                    <div class="image">
-                        <img src="../assets/liam.jpg">
-                    </div>
-                    <h4>Liam Whitted</h4>
-                    <p>Social</p>
                 </div>
             </div>
         </div>
