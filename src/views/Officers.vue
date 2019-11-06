@@ -159,7 +159,7 @@
                     <div class="image">
                         <img src="../assets/matthew.jpg">
                     </div>
-                    <h4>Emmalynn Kim</h4>
+                    <h4>Emmalyn Kim</h4>
                     <p>Social</p>
                 </div>
                 <div class="person-holder">
