@@ -6,7 +6,7 @@
             </div>
             <div class="text">
                 <h1>Learn about Korean culture</h1>
-                <p class="descrip">Anyone interested in Korean culture is welcome to join! Take part in various cultural events held throughout the year, or join our annual cultural show: K-Expo, featuring both traditional and modern dances, a movie skit, and outside performances!</p>
+                <p class="descrip">Anyone interested in Korean culture is welcome to join! Take part in various cultural events held throughout the year, or join our annual cultural show: K-EXPO, featuring both traditional and modern dances, a movie skit, and outside performances!</p>
             </div>
             <div class="image-holder">
                 <img class="fan-dance-pic img-fluid" src='~@/assets/fan-dance.jpg'>
