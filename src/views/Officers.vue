@@ -134,7 +134,7 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/matthew.jpg">
+                        <img src="../assets/logo.png">
                     </div>
                     <h4>Paniti Mongkonpathumrat</h4>
                     <p>Historian</p>
@@ -195,7 +195,7 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/matthew.jpg">
+                        <img src="../assets/logo.png">
                     </div>
                     <h4>Jaehoon Smith</h4>
                     <p>Social</p>
