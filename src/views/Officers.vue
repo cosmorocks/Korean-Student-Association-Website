@@ -19,7 +19,7 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/ardean.jpg">
+                        <img src="../assets/april.jpg">
                     </div>
                     <h4>Matthew Bacon</h4>
                     <p>Treasurer</p>
@@ -47,14 +47,14 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/sab.jpg">
+                        <img src="../assets/april.jpg">
                     </div>
                     <h4>Will Ngu</h4>
                     <p>Outreach</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/hannah.jpg">
+                        <img src="../assets/april.jpg">
                     </div>
                     <h4>Chris Lee</h4>
                     <p>Outreach</p>
@@ -75,28 +75,28 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/philip.jpg">
+                        <img src="../assets/lilly.png">
                     </div>
                     <h4>Lilly Ko</h4>
                     <p>Internal</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/edmund.jpg">
+                        <img src="../assets/april.jpg">
                     </div>
                     <h4>Eunice Lee</h4>
                     <p>Internal</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/ariel.jpg">
+                        <img src="../assets/leesun.jpg">
                     </div>
                     <h4>Leesun Chea</h4>
                     <p>Internal</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/jenny.jpg">
+                        <img src="../assets/april.jpg">
                     </div>
                     <h4>Jane Kim</h4>
                     <p>Public Relations</p>
@@ -110,14 +110,14 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/lan.jpg">
+                        <img src="../assets/jenny.jpg">
                     </div>
                     <h4>Jenny Yao</h4>
                     <p>Historian</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/rebecca.jpg">
+                        <img src="../assets/april.jpg">
                     </div>
                     <h4>Paniti Mongkonpathumrat</h4>
                     <p>Historian</p>
