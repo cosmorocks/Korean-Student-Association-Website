@@ -136,6 +136,9 @@
                     <h4>Liam Whitted</h4>
                     <p>Social</p>
                 </div>
+            </div>
+        </div>
+        <div class="officers my-container">
             <h1 class="meet-the-team-header">First Year Reps</h1>
             <div class="people-holder">
                 <div class="person-holder">
