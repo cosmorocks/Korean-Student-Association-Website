@@ -47,14 +47,14 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/will.jpg">
+                        <img src="../assets/will.png">
                     </div>
                     <h4>Will Ngu</h4>
                     <p>Outreach</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/chris.jpg">
+                        <img src="../assets/chris.png">
                     </div>
                     <h4>Chris Lee</h4>
                     <p>Outreach</p>
