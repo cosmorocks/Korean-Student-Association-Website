@@ -1,6 +1,6 @@
 <template>
     <div class="everything">
-        <img src="../assets/board.jpg" width="800" height="500>
+        <img src="../assets/board.jpg" width="800" height="500">
         <div class="officers my-container">
             <h1 class="meet-the-team-header">Meet our Board!</h1>
             <div class="people-holder">
