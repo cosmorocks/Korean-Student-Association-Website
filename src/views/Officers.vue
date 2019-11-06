@@ -7,7 +7,7 @@
                     <div class="image">
                         <img src="../assets/ardean.jpg">
                     </div>
-                    <h4>Ardean Kim</h4>
+                    <h4>Ardean Kimbo</h4>
                     <p>President</p>
                 </div>
                 <div class="person-holder">
