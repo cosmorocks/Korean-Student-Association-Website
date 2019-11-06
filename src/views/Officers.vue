@@ -64,7 +64,7 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/matthew.jpg">
+                        <img src="../assets/cindy.jpg">
                     </div>
                     <h4>Cindy Zhang</h4>
                     <p>Social</p>
@@ -99,14 +99,14 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/matthew.jpg">
+                        <img src="../assets/jane.png">
                     </div>
                     <h4>Jane Kim</h4>
                     <p>Public Relations</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/matthew.jpg">
+                        <img src="../assets/nhi.png">
                     </div>
                     <h4>Nhi Nguyen</h4>
                     <p>Public Relations</p>
