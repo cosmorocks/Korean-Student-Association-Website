@@ -9,6 +9,7 @@
                 <h2>What is K-EXPO?</h2>
                 <div class="paragraph">
                     <p>Our largest event in the spring semester is K-EXPO. This cultural show celebrates the beauty of both <strong>traditional and modern Korean culture</strong>, featuring spectacular student acts in singing, dancing, acting, and much more! <strong>Anyone</strong> is welcome to not only watch but also participate, as we invite other CIOs to perform alongside our own members as well. Our members work hard to provide the audience with an immersive cultural experience, concluding both of these cultural events with a <strong>feast of classic Korean foods.</strong></p>
+                    <p>K-EXPO 2020 will be held on March 28th at Burley Middle School!</p>
                 </div>
             </div>
             <div class="card-bg movie-holder">
@@ -21,23 +22,23 @@
             <div class="card-bg youtube-holder">
                 <div class="more-performances">
                     <i class="fab fa-youtube"></i>
-                    <p>Click to watch our past expo performances!</p>
+                    <p>Click to watch our past EXPO performances!</p>
                 </div>
             </div>
             </a>
             <div class="card-bg photo-slideshow">
                 <carousel :per-page="1" loop="true">
                     <slide>
-                        <img src="../assets/emma-ardean.jpg"/>
+                        <img src="../assets/modern.jpg"/>
                     </slide>
                     <slide>
                         <img src="../assets/smoothiez.jpg"/>
                     </slide>
                     <slide>
-                        <img src="../assets/csa-pink.jpg"/>
+                        <img src="../assets/dance-group.jpg"/>
                     </slide>
                     <slide>
-                        <img src="../assets/dance-group.jpg"/>
+                        <img src="../assets/csa-pink.jpg"/>
                     </slide>
                     <slide>
                         <img src="../assets/dance-group-2.jpg"/>
