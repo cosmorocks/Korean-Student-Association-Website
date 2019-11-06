@@ -7,12 +7,12 @@
                     <div class="image">
                         <img src="../assets/ardean.jpg">
                     </div>
-                    <h4>Ardean Kimbo</h4>
+                    <h4>Ardean Kim</h4>
                     <p>President</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/val.jpg">
+                        <img src="../assets/val.png">
                     </div>
                     <h4>Valerie Young</h4>
                     <p>Vice President</p>
@@ -33,14 +33,14 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/val.jpg">
+                        <img src="../assets/kwang.jpg">
                     </div>
                     <h4>Kwangmin Yoo</h4>
                     <p>Culture</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/sherlyn.jpg">
+                        <img src="../assets/alicia.jpg">
                     </div>
                     <h4>Alicia Wang</h4>
                     <p>Culture</p>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/lan.jpg">
+                        <img src="../assets/lauren.png">
                     </div>
                     <h4>Lauren Eller</h4>
                     <p>Fundraising</p>
