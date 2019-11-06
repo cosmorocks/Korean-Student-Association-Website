@@ -19,7 +19,7 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/april.jpg">
+                        <img src="../assets/matthew.jpg">
                     </div>
                     <h4>Matthew Bacon</h4>
                     <p>Treasurer</p>
@@ -47,14 +47,14 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/april.jpg">
+                        <img src="../assets/matthew.jpg">
                     </div>
                     <h4>Will Ngu</h4>
                     <p>Outreach</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/april.jpg">
+                        <img src="../assets/matthew.jpg">
                     </div>
                     <h4>Chris Lee</h4>
                     <p>Outreach</p>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/april.jpg">
+                        <img src="../assets/matthew.jpg">
                     </div>
                     <h4>Eunice Lee</h4>
                     <p>Internal</p>
@@ -96,14 +96,14 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/april.jpg">
+                        <img src="../assets/matthew.jpg">
                     </div>
                     <h4>Jane Kim</h4>
                     <p>Public Relations</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/april.jpg">
+                        <img src="../assets/matthew.jpg">
                     </div>
                     <h4>Nhi Nguyen</h4>
                     <p>Public Relations</p>
@@ -117,21 +117,21 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/april.jpg">
+                        <img src="../assets/matthew.jpg">
                     </div>
                     <h4>Paniti Mongkonpathumrat</h4>
                     <p>Historian</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/april.jpg">
+                        <img src="../assets/matthew.jpg">
                     </div>
                     <h4>Cindy Zhang</h4>
                     <p>Social</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/april.jpg">
+                        <img src="../assets/matthew.jpg">
                     </div>
                     <h4>Liam Whitted</h4>
                     <p>Social</p>
@@ -154,21 +154,21 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/april.jpg">
+                        <img src="../assets/matthew.jpg">
                     </div>
                     <h4>Emmalynn Kim</h4>
                     <p>Social</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/april.jpg">
+                        <img src="../assets/matthew.jpg">
                     </div>
                     <h4>Alan Zheng</h4>
                     <p>Internal</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/april.jpg">
+                        <img src="../assets/matthew.jpg">
                     </div>
                     <h4>Donghoon Sin</h4>
                     <p>Internal</p>
@@ -182,14 +182,14 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/april.jpg">
+                        <img src="../assets/matthew.jpg">
                     </div>
                     <h4>Mohamed Elgazar</h4>
                     <p>Social</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/april.jpg">
+                        <img src="../assets/matthew.jpg">
                     </div>
                     <h4>Jaehoon Smith</h4>
                     <p>Social</p>
