@@ -167,7 +167,7 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/matthew.jpg">
+                        <img src="../assets/alan.png">
                     </div>
                     <h4>Alan Zheng</h4>
                     <p>Internal</p>

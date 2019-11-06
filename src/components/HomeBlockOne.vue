@@ -6,6 +6,7 @@
         <div class="text">
             <h1>More than just an organization</h1>
             <p class="descrip">Join KSA and be placed into a "family" - a small group led by upperclassmen. You'll get to hangout, play games, get food, and have fun in all kinds of social events while meeting new people and making lifelong friends.</p>
+            <p class="descrip">To be placed in a family for this year, please fill out <a href="https://tinyurl.com/newksamembs">this form.</a></p>
         </div>
     </div>
 </template>
