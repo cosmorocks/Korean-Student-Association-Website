@@ -1,6 +1,6 @@
 <template>
     <div class="everything">
-        <img src="../assets/board.jpg">
+        <img src="../assets/board.jpg" width="800" height="500>
         <div class="officers my-container">
             <h1 class="meet-the-team-header">Meet our Board!</h1>
             <div class="people-holder">
@@ -158,7 +158,7 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/matthew.jpg">
+                        <img src="../assets/emmalyn.jpg">
                     </div>
                     <h4>Emmalyn Kim</h4>
                     <p>Social</p>
@@ -172,7 +172,7 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/matthew.jpg">
+                        <img src="../assets/donghoon.jpg">
                     </div>
                     <h4>Donghoon Sin</h4>
                     <p>Internal</p>
