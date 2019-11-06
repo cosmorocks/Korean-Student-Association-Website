@@ -1,6 +1,6 @@
 <template>
     <div class="everything">
-        <img src="../assets/board.jpg" width="800" height="500">
+        <div class="board-image">
         <div class="officers my-container">
             <h1 class="meet-the-team-header">Meet our Board!</h1>
             <div class="people-holder">
@@ -243,5 +243,16 @@ export default {
                 margin-bottom: 0;
             }
         }
+    }
+    .board-image{
+        background-image: url('~@/assets/board.jpg');
+        background-position: -100px -100px;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 575px;
+        margin: 0 auto;
+        position: relative;
+        z-index: -99;
     }
 </style>
