@@ -1,27 +1,27 @@
 <template>
     <div>
         <div class="expo container">
-            <h1 class="header">K-Expo</h1>
+            <h1 class="header">K-EXPO</h1>
             <div class="card-bg flyer-holder">
                 <img src="../assets/k-expo-flyer.jpg"/>
             </div>
             <div class="card-bg description-holder">
-                <h2>What is K-Expo?</h2>
+                <h2>What is K-EXPO?</h2>
                 <div class="paragraph">
-                    <p>Our largest event in the spring semester is K-Expo. This cultural show celebrates the beauty of both <strong>traditional and modern Korean culture</strong>, featuring spectacular student acts in singing, dancing, acting, and much more! <strong>Anyone</strong> is welcome to not only watch but also participate, as we invite other CIOs to perform alongside our own members as well. Our members work hard to provide the audience with an immersive cultural experience, concluding both of these cultural events with a <strong>feast of classic Korean foods.</strong></p>
+                    <p>Our largest event in the spring semester is K-EXPO. This cultural show celebrates the beauty of both <strong>traditional and modern Korean culture</strong>, featuring spectacular student acts in singing, dancing, acting, and much more! <strong>Anyone</strong> is welcome to not only watch but also participate, as we invite other CIOs to perform alongside our own members as well. Our members work hard to provide the audience with an immersive cultural experience, concluding both of these cultural events with a <strong>feast of classic Korean foods.</strong></p>
                 </div>
             </div>
             <div class="card-bg movie-holder">
-                <h2 class="movie-header">Watch last year's movie skit, a parody of the popular k-drama 'Strong Woman Do Bong Soon'</h2>
+                <h2 class="movie-header">Watch last year's movie skit, a parody of the popular K-drama 'What's Wrong with Secretary Kim?'</h2>
                 <div class="card-bg bong-soon-holder">
-                    <iframe src="https://www.youtube.com/embed/7vz9ELxjxuk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/uZB-mkPTiCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
             <a target="_blank" href="https://www.youtube.com/channel/UCCrULtpfBAm2Mdq6qPHyGFQ">
             <div class="card-bg youtube-holder">
                 <div class="more-performances">
                     <i class="fab fa-youtube"></i>
-                    <p>Click to watch our past expo performances!</p>
+                    <p>Click to watch our past K-EXPO performances!</p>
                 </div>
             </div>
             </a>
