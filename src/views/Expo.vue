@@ -31,7 +31,7 @@
                         <img src="../assets/emma-ardean.jpg"/>
                     </slide>
                     <slide>
-                        <img src="../assets/val-group.jpg"/>
+                        <img src="../assets/smoothiez.jpg"/>
                     </slide>
                     <slide>
                         <img src="../assets/csa-pink.jpg"/>
@@ -46,7 +46,7 @@
                         <img src="../assets/group-pic.jpg"/>
                     </slide>
                     <slide>
-                        <img src="../assets/sonny-squared.jpg"/>
+                        <img src="../assets/pr1sm.jpg"/>
                     </slide>
                 </carousel>
             </div>

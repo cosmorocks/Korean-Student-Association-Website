@@ -55,7 +55,7 @@ export default {
         },
         image: {
             type: String,
-            default: 'first-gen-meeting.jpg',
+            default: 'logo.png',
             required: false
         }
     },
