@@ -48,14 +48,14 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/matthew.jpg">
+                        <img src="../assets/will.jpg">
                     </div>
                     <h4>Will Ngu</h4>
                     <p>Outreach</p>
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/matthew.jpg">
+                        <img src="../assets/chris.jpg">
                     </div>
                     <h4>Chris Lee</h4>
                     <p>Outreach</p>
