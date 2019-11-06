@@ -82,7 +82,7 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/matthew.jpg">
+                        <img src="../assets/eunice.jpg">
                     </div>
                     <h4>Eunice Lee</h4>
                     <p>Internal</p>
