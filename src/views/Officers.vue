@@ -5,9 +5,9 @@
             <div class="people-holder">
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/steve.jpg">
+                        <img src="../assets/ardean.jpg">
                     </div>
-                    <h4>Steve Hong</h4>
+                    <h4>Ardean Kim</h4>
                     <p>President</p>
                 </div>
                 <div class="person-holder">
