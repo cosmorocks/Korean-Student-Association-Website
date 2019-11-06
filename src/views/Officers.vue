@@ -1,6 +1,5 @@
 <template>
     <div class="everything">
-        <div class="board-image"></div>
         <div class="officers my-container">
             <h1 class="meet-the-team-header">Meet our Board!</h1>
             <div class="people-holder">
