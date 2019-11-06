@@ -10,7 +10,7 @@
 
 <style>
     .hero-image{
-        background-image: url('~@/assets/carters.jpg');
+        background-image: url('~@/assets/carters.png');
         background-position: -100px -100px;
         background-size: 120%;
         background-repeat: no-repeat;
