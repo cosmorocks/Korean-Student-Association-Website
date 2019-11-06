@@ -32,13 +32,13 @@
                         <img src="../assets/modern.jpg"/>
                     </slide>
                     <slide>
-                        <img src="../assets/smoothiez.jpg"/>
+                        <img src="../assets/csa-pink.jpg"/>
                     </slide>
                     <slide>
                         <img src="../assets/dance-group.jpg"/>
                     </slide>
                     <slide>
-                        <img src="../assets/csa-pink.jpg"/>
+                        <img src="../assets/smoothiez.jpg"/>
                     </slide>
                     <slide>
                         <img src="../assets/dance-group-2.jpg"/>
