@@ -26,7 +26,7 @@
                 </div>
                 <div class="person-holder">
                     <div class="image">
-                        <img src="../assets/leesun.jpg">
+                        <img src="../assets/jenna.jpg">
                     </div>
                     <h4>Jenna Lee</h4>
                     <p>Secretary</p>
