@@ -1,7 +1,7 @@
 <template>
     <div class="container sign-up-form form-bg">
-        <h1 class="header">What're you waiting for?</h1>
-        <p class="small-text">Fill out the form below to recieve our newsletter and be notified when new events come up!</p>
+        <h1 class="header">What are you waiting for?</h1>
+        <p class="small-text">Fill out the form below to receive our newsletter and be notified when new events happen!</p>
         <form @submit.prevent="submitForm()" class="submit-form form-bg" name="contact-form" data-netlify="true" data-netlify-honeypot="bot-field">
             <div hidden>
                 <label>
